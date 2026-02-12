@@ -1,5 +1,16 @@
 {
-  "name": "Rahul",
-  "age": 25,
-  "city": "Kochi"
+  "matchData": [
+    {
+      "home": "Kerala Blasters",
+      "away": "ATK Mohun Bagan",
+      "homeLogo": "kb.png",
+      "awayLogo": "atk.png",
+      "date": "10 Oct 2026",
+      "time": "7:30 PM",
+      "score": "VS",
+      "weekName": "Matchweek 1",
+      "venue": "Kochi Stadium",
+      "link": "details.html"
+    }
+  ]
 }
