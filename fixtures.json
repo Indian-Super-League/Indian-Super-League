@@ -1,16 +1,17 @@
 {
   "matchData": [
     {
-      "home": "Kerala Blasters",
-      "away": "ATK Mohun Bagan",
-      "homeLogo": "kb.png",
-      "awayLogo": "atk.png",
-      "date": "10 Oct 2026",
-      "time": "7:30 PM",
+      "home": "Mohun Bagan",
+      "away": "Kerala Blasters",
+      "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohun%20Bagan.png",
+      "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Kerala%20Blasters.png",
+      "date": "Feb 14",
+      "time": "05:00 PM",
       "score": "VS",
-      "weekName": "Matchweek 1",
-      "venue": "Kochi Stadium",
-      "link": "details.html"
+      "weekName": "Saturday",
+      "venue": "YVBK Stadium, Kolkata",
+      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/1-mbsg-vs-kbfc.html"
     }
   ]
 }
+
