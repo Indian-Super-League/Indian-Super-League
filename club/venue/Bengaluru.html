@@ -1,0 +1,302 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<link rel="icon" href="https://raw.githubusercontent.com/indian-super-league/Indian-Super-League/refs/heads/main/img/logo/Isl.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/indian-super-league/Indian-Super-League/refs/heads/main/img/logo/Isl.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BFC - VENUE</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#0f2f7a;
+  color:#fff;
+}
+
+/* HERO IMAGE */
+.hero{
+  width:100%;
+  height: 650px;
+  background:url("https://www.indiansuperleague.com/static-assets/images/club/overview/656.png?v=103.21") center/cover no-repeat;
+}
+
+/* CARD */
+.card{
+  background:#1f3f91;
+  padding:70px 16px 20px;
+  position:relative;
+  text-align:center;
+  
+}
+
+/* LOGO CIRCLE */
+.logo-wrap{
+  width:120px;
+  height:120px;
+  background:#fff;
+  border-radius:50%;
+  position:absolute;
+  top:-60px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo-wrap img{
+  width:90px;
+}
+
+/* CLUB NAME */
+.club-name{
+  font-size:36px;
+  font-weight:bold;
+  margin-top:px;
+}
+
+/* STADIUM */
+.stadium{
+  margin-top:3px;
+  font-size:15px;
+  opacity:0.9;
+}
+
+.stadium i{
+  margin-right:6px;
+}
+
+/* BUTTON */
+.btn{
+  margin:18px auto 10px;
+  width:100%;
+  background:#2a55c5;
+  padding:14px;
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  text-decoration:none;
+  color:#fff;
+  font-weight:600;
+}
+
+
+/* BOTTOM NAV */
+.bottom-nav{
+  display:flex;
+  background:#d32f2f;
+}
+
+.bottom-nav .aone{
+  flex:1;
+  text-align:center;
+  padding:14px;
+  font-weight:600;
+}
+
+.bottom-nav div:not(:last-child){
+  border-right:1.5px solid rgba(255,255,255,0.3);
+}
+.hhead {
+	font-weight: 1000;
+	font-size: 20px;
+}
+.stadiums {
+	padding: 5%;
+}
+.ven {
+	width: 100%;
+	aspect-ratio: 16/9;
+	margin-top: 0.3cm;
+}
+p {
+	text-align: justify;
+	letter-spacing: 1px;
+	font-family: verdana;
+	line-height: 25px;
+	font-size: 16px;
+}
+/* HEADER */  
+.main-header {
+    width: 100%;
+    height: 1.35cm;
+    background: #1B2A47;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;   /* ðŸ”¥ ADD THIS */
+    display: flex;
+    color: white;
+    flex-direction: row;
+    gap: 0.1cm;
+    align-items: center;
+}
+.head-logo {  
+    width: 2.6rem;  
+    aspect-ratio: 1/1;  
+    background: white;  
+    border-radius: 12px;  
+    margin: 6px;  
+    padding: 3px;  
+    margin-top: 6px;  
+    margin-left: 0.5cm;  
+}  
+.headname {  
+    color: white;  
+    font-size: 1.3rem;  
+    font-family: serif;  
+    letter-spacing: 1px;
+    font-weight: 1500;  
+    margin-left: 0.25cm;  
+}  
+  
+/* Hamburger Icon */  
+.hamburger {
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    top: 18px;
+    z-index: 10000;
+}
+.hamburger span {  
+    width: 100%;  
+    height: 4px;    
+    background: white;  
+    position: absolute;  
+    left: 0;  
+    transition: 0.4s;  
+    border-radius: 4px;  
+}  
+.hamburger span:nth-child(1) { top: 0; }  
+.hamburger span:nth-child(2) { top: 9px; }  
+.hamburger span:nth-child(3) { top: 18px; }  
+.hamburger.active span:nth-child(1) { transform: rotate(45deg); top: 9px; }  
+.hamburger.active span:nth-child(2) { opacity: 0; }  
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg); top: 9px; }  
+  
+/* Menu */  
+.menu {  
+    width: 220px;  
+    background: #222;  
+    color: white;  
+    position: fixed;  
+    font-size: 20px;  
+    top: 51px;  
+    right: -220px;  
+    height: 11.4cm;  
+    transition: 0.4s;  
+    z-index: 10000;
+    opacity: 70%;  
+}  
+.menu.active { right:0; }  
+.menu a {  
+    display: block;  
+    padding: 15px 20px;  
+    border-bottom: 1px solid #fff;  
+    color: white;  
+    text-decoration: none;  
+}  
+.content-space { height:50px; } /* Space for fixed header */  
+ 
+ a 
+ {
+ 	color: inherit;
+ text-decoration: none;
+}
+.aone {
+	width: 245px;
+}
+ /* Responsive */  
+@media (max-width: 760px) {  
+    .hamburger { margin-left: 9.7cm; }  
+    .head-logo { margin-left: 8.5px; }  
+    .headname { margin-left: 0; }  
+    .hero{ height:260px;}
+    .aone {width: 102px;}
+}  
+</style>
+</head>
+
+<body>
+<div class="main-header">  
+<img onclick="openVideo('https://indian-super-league.github.io/Indian-Super-League/index.html')" class="head-logo" src="https://raw.githubusercontent.com/indian-super-league/Indian-Super-League/refs/heads/main/img/logo/Isl.png"/>
+  <h3 class="headname">Indian Super League</h3>  
+</div>  
+  
+<div class="hamburger" id="hamburger">  
+  <span></span>  
+  <span></span>  
+  <span></span>  
+</div>  
+  
+<div class="menu" id="menu">  
+  <a href="https://indian-super-league.github.io/Indian-Super-League/index.html">Home</a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/fixtures/fixtures.html">Fixtures</a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/highlights/highlights.html">Highlights</a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/table/table.html">Point Table</a>  
+  <a href="https://indian-super-league.github.io/Indian-Super-League/stats/player stats.html">Player Stats</a>  
+  <a href="https://indian-super-league.github.io/Indian-Super-League/stats/club stats.html">Club Stats</a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/clubs.html">Clubs</a>   
+  <a href="https://indian-super-league.github.io/Indian-Super-League/about/about.html">About</a></div>  
+	<div class="content-space"></div>
+<!-- HERO -->
+<div class="hero"></div>
+
+<!-- CARD -->
+<div class="card">
+
+  <!-- LOGO -->
+  <div class="logo-wrap">
+    <img src="https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Bengaluru.png">
+  </div>
+
+  <!-- NAME -->
+  <div class="club-name">Bengaluru</div>
+
+  <!-- STADIUM -->
+  <div class="stadium">
+    <i class="fa-solid fa-building"></i>
+    Sree Kanteerava Stadium, Bengaluru
+  </div>
+
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/venue/Bengaluru.html"><div class="aone" style="background: white; color: black;">Venue</div></a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/squad/Bengaluru.html"><div class="aone">Squad</div></a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/matches/Bengaluru.html"><div class="aone">Matches</div></a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/about/Bengaluru.html"><div class="aone">About</div></a> 
+</div>
+
+<div class="stadiums"><h3 class="hhead">Venue</h3>
+<img class="ven" src="https://raw.githubusercontent.com/indian-super-league/Indian-Super-League/refs/heads/main/img/club/stadium/Bengaluru.png"/><br><br>
+<h3 class="hhead">Profile</h3><br>
+<p>In their first season, Bengaluru FC played home games at Bangalore Football Stadium in the city centre. The West stand was the largest and most capacious stand, and housed the VIP boxes during I-League and other major matches. During the club's launch, it was announced the team would play at Bangalore Football Stadium for the 2013–14 I-League season. The stadium had a capacity of 15,000 and its pitch was covered with astroturf.</p><br>
+<p>From the 2014–15 season, the club started playing home games at the 24,000 capacity Sree Kanteerava Stadium. There are eight entrances to the stadium, and nine stands are used for Bengaluru FC matches. West Block A stand is the largest stand in the stadium and is home to the West Block Blues supporters' club. Due to criticisms of the artificial pitch at Bangalore Football Stadium, the new stadium's pitch is covered with natural grass. All stands except the North Stand have permanent seating. Some fans refer to the Sree Kanteerva Stadium as 'The Fortress".</p>
+</div>
+<script>
+	const hamburger=document.getElementById("hamburger");  
+const menu=document.getElementById("menu");  
+hamburger.addEventListener("click",()=>{hamburger.classList.toggle("active"); menu.classList.toggle("active");});  
+menu.addEventListener("click",e=>{const link=e.target.closest("a"); if(!link) return; hamburger.classList.remove("active"); menu.classList.remove("active");});  
+</script>
+	<script>
+function openVideo(url){
+    if(url){
+        window.location.href = url;
+    }
+}
+	</script>
+</script>
+</body>
+  </html>
