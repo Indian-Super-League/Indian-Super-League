@@ -33,36 +33,33 @@
       "time": "05:00 PM", 
       "score": "VS",
       "weekName": "Sunday",
-      "venue": "JRD TATA Complex, Jamshedpur", 
+      "venue": "JRD Tata Complex, Jamshedpur", 
       "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/3-jfc-vs-msc.html" 
     },
     { 
-      "weekName": "Sunday", 
       "home": "Bengaluru", 
       "away": "Delhi", 
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Bengaluru.png", 
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Delhi.png", 
-      "score": "VS", 
       "date": "Feb 15", 
       "time": "07:30 PM", 
+      "score": "VS", 
+      "weekName": "Sunday", 
       "venue": "Sree Kanteerava Stadium, Bengaluru", 
       "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/4-bfc-vs-scd.html" 
     },
     {
-      "weekName": "Monday",
-      "home": "Odisha",
+    "home": "Odisha",
       "away": "Punjab",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Odisha.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Punjab.png",
-      "score": "VS",
       "date": "Feb 16",
       "time": "05:00 PM",
+      
+      "score": "VS",
+      "weekName": "Monday",
       "venue": "Kalinga Stadium, Bhubaneswar",
       "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/5-ofc-vs-pfc.html" 
   }
   ]
 }
-
-
-
-
