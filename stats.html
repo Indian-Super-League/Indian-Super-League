@@ -196,7 +196,7 @@ function renderMatches(matchData){
             <div class="match">    
                 <div class="team"><img src="${m.homeLogo}"><div class="team-name">${m.home}</div></div>    
                 <div class="score">    
-                    <div class="date"><i class="fa-regular fa-calendar"></i> ${m.date} &nbsp;    
+                    <div class="date"><i class="fa-regular fa-calendar"></i> ${m.date} &nbsp;|&nbsp;
                     <i class="fa-regular fa-clock"></i> ${m.time}</div><br>    
                     <div class="score-number">${m.score}</div>    
                 </div>    
@@ -204,7 +204,7 @@ function renderMatches(matchData){
             </div>    
             <div class="referee">${m.weekName}</div>    
             <div class="odds"><i class="fa-solid fa-building"></i> ${m.venue}</div>    
-            <div class="bet-btn" onclick="openVideo('${m.link}')">    
+            <div class="more-btn" onclick="openVideo('${m.link}')">    
                 More Details <i class="fa-solid fa-angles-right"></i>    
             </div>    
         </div>
@@ -226,5 +226,6 @@ menu.addEventListener("click",e=>{const link=e.target.closest("a"); if(!link) re
 
 </body>
   </html>
+
 
 
