@@ -179,7 +179,7 @@ padding:8px;
 </div>
 
 <script>
-fetch("fixtures.json")
+fetch("https://indian-super-league.github.io/Indian-Super-League/fixtures.json")
   .then(response => response.json())
   .then(data => {
     renderMatches(data.matchData);
@@ -242,3 +242,4 @@ menu.addEventListener("click",e=>{const link=e.target.closest("a"); if(!link) re
 
 </body>
   </html>
+
