@@ -2,9 +2,9 @@
   "matchData": [
     {
       "home": "Kerala Blasters",
-      "away": "ATK Mohun Bagan",
-      "homeLogo": "kb.png",
-      "awayLogo": "atk.png",
+      "away": "Mohun Bagan",
+      "homeLogo":"https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Kerala%20Blasters.png",
+      "awayLogo":"https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohun%20Bagan.png",
       "date": "10 Oct 2026",
       "time": "7:30 PM",
       "score": "VS",
@@ -14,3 +14,4 @@
     }
   ]
 }
+
