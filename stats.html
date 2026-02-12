@@ -192,38 +192,22 @@ function renderMatches(matchData){
 
   matchData.forEach(m => {
     container.innerHTML += `
-      <div class="card">
-        <div class="match">
-
-          <div class="team">
-            <img src="${m.homeLogo}">
-            <div class="team-name">${m.home}</div>
-          </div>
-
-          <div class="score">
-            <div class="date">
-              ${m.date} • ${m.time}
-            </div><br>
-            <div class="score-number">${m.score}</div>
-          </div>
-
-          <div class="team">
-            <img src="${m.awayLogo}">
-            <div class="team-name">${m.away}</div>
-          </div>
-
+    <div class="card" data-date="${m.date}" data-time="${m.time}">    
+            <div class="match">    
+                <div class="team"><img src="${m.homeLogo}"><div class="team-name">${m.home}</div></div>    
+                <div class="score">    
+                    <div class="date"><i class="fa-regular fa-calendar"></i> ${m.date} &nbsp;    
+                    <i class="fa-regular fa-clock"></i> ${m.time}</div><br>    
+                    <div class="score-number">${m.score}</div>    
+                </div>    
+                <div class="team"><img src="${m.awayLogo}"><div class="team-name">${m.away}</div></div>    
+            </div>    
+            <div class="referee">${m.weekName}</div>    
+            <div class="odds"><i class="fa-solid fa-building"></i> ${m.venue}</div>    
+            <div class="bet-btn" onclick="openVideo('${m.link}')">    
+                More Details <i class="fa-solid fa-angles-right"></i>    
+            </div>    
         </div>
-
-        <div class="referee">${m.weekName}</div>
-
-        <div class="odds">
-          📍 ${m.venue}
-        </div>
-
-        <div class="more-btn" onclick="openVideo('${m.link}')">
-          More Details »
-        </div>
-      </div>
     `;
   });
 }
@@ -242,4 +226,5 @@ menu.addEventListener("click",e=>{const link=e.target.closest("a"); if(!link) re
 
 </body>
   </html>
+
 
