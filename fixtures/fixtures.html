@@ -179,11 +179,13 @@ padding:8px;
 </div>
 
 <script>
-fetch('https://indian-super-league.github.io/Indian-Super-League/data/fixtures.json')
+fetch('https://raw.githubusercontent.com/indian-super-league/Indian-Super-League/main/data/fixtures.json,')
   .then(res => res.json())
   .then(data => {
-    console.log(data.matchData);
-  });
+    console.log(data.matchData);   // debug
+    renderMatches(data.matchData); // 🔥 THIS WAS MISSING
+  })
+  .catch(err => console.error("Fetch error:", err));
 
 function renderMatches(matchData){    
     const container = document.getElementById("matches");    
@@ -241,4 +243,4 @@ menu.addEventListener("click",e=>{const link=e.target.closest("a"); if(!link) re
 </script>
 
 </body>
-	</html>
+	  </html>
