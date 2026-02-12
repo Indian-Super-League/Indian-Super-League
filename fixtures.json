@@ -25,14 +25,14 @@
       "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/2-gfc-vs-ikfc.html"
     },
     {
-      "weekName": "Sunday",
       "home": "Jamshedpur", 
       "away": "Mohammedan", 
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Jamshedpur.png", 
-      "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohammedan.png", 
-      "score": "VS", 
+      "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohammedan.png",
       "date": "Feb 15", 
       "time": "05:00 PM", 
+      "score": "VS",
+      "weekName": "Sunday",
       "venue": "JRD TATA Complex, Jamshedpur", 
       "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/3-jfc-vs-msc.html" 
     },
@@ -62,6 +62,7 @@
   }
   ]
 }
+
 
 
 
