@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Example</title>
+</head>
+<body>
+
+  <h2>JSON Data</h2>
+  <p id="output"></p>
+
+  <script>
+    fetch("fixtures.json")
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("output").innerHTML =
+          "Name: " + data.name + "<br>" +
+          "Age: " + data.age + "<br>" +
+          "City: " + data.city;
+      })
+      .catch(error => console.log(error));
+  </script>
+
+</body>
+</html>
