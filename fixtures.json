@@ -101,7 +101,7 @@
       "away": "Delhi",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/East%20Bengal.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Delhi.png",
-      "date": "Feb 21",
+      "date": "Feb 12",
       "time": "5:00 PM",
       "score": "VS",
       "weekName": "Saturday",
@@ -113,7 +113,7 @@
       "away": "Punjab",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Jamshedpur.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Punjab.png",
-      "date": "Feb 21",
+      "date": "Feb 13",
       "time": "7:30 PM",
       "score": "VS",
       "weekName": "Saturday",
@@ -1094,4 +1094,5 @@
     }
   ]
     }
+
 
