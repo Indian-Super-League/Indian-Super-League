@@ -230,16 +230,16 @@ menu.addEventListener("click",e=>{const link=e.target.closest("a"); if(!link) re
 function autoScrollToPreviousMatch(){
   const cards = document.querySelectorAll(".card");
   const now = new Date();
-
   let targetCard = null;
 
   cards.forEach((card, i) => {
-    const date = card.dataset.date;
-    const time = card.dataset.time;
+    let date = card.dataset.date;
+    let time = card.dataset.time;
 
     if(!date || !time) return;
 
-    const matchDateTime = new Date(`${date} ${time}`);
+    // safer datetime format
+    const matchDateTime = new Date(date + "T" + time);
 
     if(matchDateTime > now && !targetCard){
       targetCard = cards[i-1] || card;
@@ -251,13 +251,14 @@ function autoScrollToPreviousMatch(){
 
     setTimeout(()=>{
       targetCard.scrollIntoView({
-        behavior:"smooth",
-        block:"center"
+        behavior: "smooth",
+        block: "center"
       });
-    },300);
+    }, 600); // थोड़ा delay safe
   }
 }
 </script>
 
 </body>
   </html>
+
