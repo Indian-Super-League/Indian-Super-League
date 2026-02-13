@@ -5,7 +5,7 @@
       "away": "Kerala Blasters",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohun%20Bagan.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Kerala%20Blasters.png",
-      "date": "Feb 14",
+      "date": "Feb 03",
       "time": "5:00 PM",
       "score": "VS",
       "weekName": "Saturday",
@@ -17,7 +17,7 @@
       "away": "Inter Kashi",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Goa.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Inter%20Kashi.png",
-      "date": "Feb 14",
+      "date": "Feb 04",
       "time": "7:30 PM",
       "score": "VS",
       "weekName": "Saturday",
@@ -29,19 +29,19 @@
       "away": "Mohammedan",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Jamshedpur.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohammedan.png",
-      "date": "Feb 15",
+      "date": "Feb 05",
       "time": "5:00 PM",
       "score": "VS",
       "weekName": "Sunday",
       "venue": "JRD Tata Complex, Jamshedpur",
-      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/3-jfc-vs-msc-.html"
+      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/3-jfc-vs-msc.html"
     },
     {
       "home": "Bengaluru",
       "away": "Delhi",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Bengaluru.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Delhi.png",
-      "date": "Feb 15",
+      "date": "Feb 06",
       "time": "7:30 PM",
       "score": "VS",
       "weekName": "Sunday",
@@ -53,7 +53,7 @@
       "away": "Punjab",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Odisha.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Punjab.png",
-      "date": "Feb 16",
+      "date": "Feb 08",
       "time": "5:00 PM",
       "score": "VS",
       "weekName": "Monday",
@@ -65,7 +65,7 @@
       "away": "North East",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/East%20Bengal.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/North%20East%20United.png",
-      "date": "Feb 16",
+      "date": "Feb 09",
       "time": "7:30 PM",
       "score": "VS",
       "weekName": "Monday",
@@ -77,7 +77,7 @@
       "away": "Chennaiyin",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mumbai%20City.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Chennaiyin.png",
-      "date": "Feb 19",
+      "date": "Feb 10",
       "time": "7:30 PM",
       "score": "VS",
       "weekName": "Thursday",
@@ -89,7 +89,7 @@
       "away": "Mohammedan",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Goa.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohammedan.png",
-      "date": "Feb 20",
+      "date": "Feb 11",
       "time": "7:30 PM",
       "score": "VS",
       "weekName": "Friday",
@@ -1094,5 +1094,6 @@
     }
   ]
     }
+
 
 
