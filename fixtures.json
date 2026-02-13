@@ -5,11 +5,11 @@
       "away": "Kerala Blasters",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohun%20Bagan.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Kerala%20Blasters.png",
-      "date": "Feb 14",
-      "time": "05:00 PM",
+      "date": "14 Feb",
+      "time": "5:00 PM",
       "score": "VS",
       "weekName": "Saturday",
-      "venue": "YVBK Stadium, Kolkata",
+      "venue": "VYBK Stadium, Kolkata",
       "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/1-mbsg-vs-kbfc.html"
     },
     {
@@ -17,50 +17,60 @@
       "away": "Inter Kashi",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Goa.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Inter%20Kashi.png",
-      "date": "Feb 14",
-      "time": "07:30 PM",
+      "date": "14 Feb",
+      "time": "7:30 PM",
       "score": "VS",
       "weekName": "Saturday",
       "venue": "PJN Stadium, Fatorda",
       "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/2-gfc-vs-ikfc.html"
     },
     {
-      "home": "Jamshedpur", 
-      "away": "Mohammedan", 
-      "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Jamshedpur.png", 
+      "home": "Jamshedpur",
+      "away": "Mohammedan",
+      "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Jamshedpur.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Mohammedan.png",
-      "date": "Feb 15", 
-      "time": "05:00 PM", 
+      "date": "15 Feb",
+      "time": "5:00 PM",
       "score": "VS",
       "weekName": "Sunday",
-      "venue": "JRD Tata Complex, Jamshedpur", 
-      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/3-jfc-vs-msc.html" 
-    },
-    { 
-      "home": "Bengaluru", 
-      "away": "Delhi", 
-      "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Bengaluru.png", 
-      "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Delhi.png", 
-      "date": "Feb 15", 
-      "time": "07:30 PM", 
-      "score": "VS", 
-      "weekName": "Sunday", 
-      "venue": "Sree Kanteerava Stadium, Bengaluru", 
-      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/4-bfc-vs-scd.html" 
+      "venue": "JRD Tata Complex, Jamshedpur",
+      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/3-jfc-vs-msc.html"
     },
     {
-    "home": "Odisha",
+      "home": "Bengaluru",
+      "away": "Delhi",
+      "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Bengaluru.png",
+      "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Delhi.png",
+      "date": "15 Feb",
+      "time": "7:30 PM",
+      "score": "VS",
+      "weekName": "Sunday",
+      "venue": "Sree Kanteerava Stadium, Bengaluru",
+      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/4-bfc-vs-scd.html"
+    },
+    {
+      "home": "Odisha",
       "away": "Punjab",
       "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Odisha.png",
       "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Punjab.png",
-      "date": "Feb 16",
-      "time": "05:00 PM",
-      
+      "date": "16 Feb",
+      "time": "5:00 PM",
       "score": "VS",
       "weekName": "Monday",
       "venue": "Kalinga Stadium, Bhubaneswar",
-      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/5-ofc-vs-pfc.html" 
-  }
-  ];
+      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/5-ofc-vs-pfc.html"
+    },
+    {
+      "home": "East Bengal",
+      "away": "North East",
+      "homeLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/East%20Bengal.png",
+      "awayLogo": "https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/North%20East%20United.png",
+      "date": "16 Feb",
+      "time": "7:30 PM",
+      "score": "VS",
+      "weekName": "Monday",
+      "venue": "VYBK Stadium, Kolkata",
+      "link": "https://indian-super-league.github.io/Indian-Super-League/fixtures/matches/6-ebfc-vs-neufc.html"
+    }
+  ]
 }
-
