@@ -149,7 +149,12 @@ padding:8px;
     .head-logo { margin-left: 8.5px; }  
     .headname { margin-left: 0; }  
 }  
+.highlight-match{
+  border:3px solid #5b3df5;
+  box-shadow:0 0 15px rgba(91,61,245,.4);
+}
 </style>
+ 
 </head>
 
 <body>
@@ -192,7 +197,7 @@ function renderMatches(matchData){
 
   matchData.forEach(m => {
     container.innerHTML += `
-    <div class="card" data-date="${m.date}" data-time="${m.time}">    
+    <div class="card" data-date="${m.date}" data-time="${m.time}" onclick="openVideo('${m.link}')">    
             <div class="match">    
                 <div class="team"><img src="${m.homeLogo}"><div class="team-name">${m.home}</div></div>    
                 <div class="score">    
@@ -204,12 +209,11 @@ function renderMatches(matchData){
             </div>    
             <div class="referee">${m.weekName}</div>    
             <div class="odds"><i class="fa-solid fa-building"></i> ${m.venue}</div>    
-            <div class="more-btn" onclick="openVideo('${m.link}')">    
-                More Details <i class="fa-solid fa-angles-right"></i>    
-            </div>    
+               
         </div>
     `;
   });
+  autoScrollToPreviousMatch();
 }
 
 function openVideo(url){
@@ -222,10 +226,38 @@ const hamburger=document.getElementById("hamburger");
 const menu=document.getElementById("menu");  
 hamburger.addEventListener("click",()=>{hamburger.classList.toggle("active"); menu.classList.toggle("active");});  
 menu.addEventListener("click",e=>{const link=e.target.closest("a"); if(!link) return; hamburger.classList.remove("active"); menu.classList.remove("active");});  
+
+function autoScrollToPreviousMatch(){
+  const cards = document.querySelectorAll(".card");
+  const now = new Date();
+
+  let targetCard = null;
+
+  cards.forEach((card, i) => {
+    const date = card.dataset.date;
+    const time = card.dataset.time;
+
+    if(!date || !time) return;
+
+    const matchDateTime = new Date(`${date} ${time}`);
+
+    if(matchDateTime > now && !targetCard){
+      targetCard = cards[i-1] || card;
+    }
+  });
+
+  if(targetCard){
+    targetCard.classList.add("highlight-match");
+
+    setTimeout(()=>{
+      targetCard.scrollIntoView({
+        behavior:"smooth",
+        block:"center"
+      });
+    },300);
+  }
+}
 </script>
 
 </body>
   </html>
-
-
-
