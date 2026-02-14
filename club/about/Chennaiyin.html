@@ -1,0 +1,297 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<link rel="icon" href="https://raw.githubusercontent.com/indian-super-league/Indian-Super-League/refs/heads/main/img/logo/Isl.png" type="image/x-icon">
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/indian-super-league/Indian-Super-League/refs/heads/main/img/logo/Isl.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CFC - About</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#0f2f7a;
+  color:#fff;
+}
+
+/* HERO IMAGE */
+.hero{
+  width:100%;
+  height: 650px;
+  background:url("https://raw.githubusercontent.com/Indian-Super-League/Indian-Super-League/refs/heads/main/img/club/team/Chennaiyin.png") center/cover no-repeat;
+}
+
+/* CARD */
+.card{
+  background:#1f3f91;
+  padding:70px 16px 20px;
+  position:relative;
+  text-align:center;
+  
+}
+
+/* LOGO CIRCLE */
+.logo-wrap{
+  width:120px;
+  height:120px;
+  background:#fff;
+  border-radius:50%;
+  position:absolute;
+  top:-60px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo-wrap img{
+  width:90px;
+}
+
+/* CLUB NAME */
+.club-name{
+  font-size:36px;
+  font-weight:bold;
+  margin-top:px;
+}
+
+/* STADIUM */
+.stadium{
+  margin-top:3px;
+  font-size:15px;
+  opacity:0.9;
+}
+
+.stadium i{
+  margin-right:6px;
+}
+
+/* BUTTON */
+.btn{
+  margin:18px auto 10px;
+  width:100%;
+  background:#2a55c5;
+  padding:14px;
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  text-decoration:none;
+  color:#fff;
+  font-weight:600;
+}
+
+
+/* BOTTOM NAV */
+.bottom-nav{
+  display:flex;
+  background:#d32f2f;
+}
+
+.bottom-nav .aone{
+  flex:1;
+  text-align:center;
+  padding:14px;
+  font-weight:600;
+}
+
+.hhead {
+	font-weight: 1000;
+	font-size: 20px;
+}
+.stadiums {
+	padding: 5%;
+}
+.ven {
+	width: 100%;
+	aspect-ratio: 16/9;
+	margin-top: 0.3cm;
+}
+p {
+	text-align: justify;
+	letter-spacing: 1px;
+	font-family: verdana;
+	line-height: 25px;
+	font-size: 16px;
+}
+/* HEADER */  
+.main-header {
+    width: 100%;
+    height: 1.35cm;
+    background: #1B2A47;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;   /* ðŸ”¥ ADD THIS */
+    display: flex;
+    color: white;
+    flex-direction: row;
+    gap: 0.1cm;
+    align-items: center;
+}
+.head-logo {  
+    width: 2.6rem;  
+    aspect-ratio: 1/1;  
+    background: white;  
+    border-radius: 12px;  
+    margin: 6px;  
+    padding: 3px;  
+    margin-top: 6px;  
+    margin-left: 0.5cm;  
+}  
+.headname {  
+    color: white;  
+    font-size: 1.3rem;  
+    font-family: serif;  
+    letter-spacing: 1px;
+    font-weight: 1500;  
+    margin-left: 0.25cm;  
+}  
+  
+/* Hamburger Icon */  
+.hamburger {
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    top: 18px;
+    z-index: 10000;
+}
+.hamburger span {  
+    width: 100%;  
+    height: 4px;    
+    background: white;  
+    position: absolute;  
+    left: 0;  
+    transition: 0.4s;  
+    border-radius: 4px;  
+}  
+.hamburger span:nth-child(1) { top: 0; }  
+.hamburger span:nth-child(2) { top: 9px; }  
+.hamburger span:nth-child(3) { top: 18px; }  
+.hamburger.active span:nth-child(1) { transform: rotate(45deg); top: 9px; }  
+.hamburger.active span:nth-child(2) { opacity: 0; }  
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg); top: 9px; }  
+  
+/* Menu */  
+.menu {  
+    width: 220px;  
+    background: #222;  
+    color: white;  
+    position: fixed;  
+    font-size: 20px;  
+    top: 51px;  
+    right: -220px;  
+    height: 11.4cm;  
+    transition: 0.4s;  
+    z-index: 10000;
+    opacity: 70%;  
+}  
+.menu.active { right:0; }  
+.menu a {  
+    display: block;  
+    padding: 15px 20px;  
+    border-bottom: 1px solid #fff;  
+    color: white;  
+    text-decoration: none;  
+}  
+.content-space { height:50px; } /* Space for fixed header */  
+ 
+ a 
+ {
+ 	color: inherit;
+ text-decoration: none;
+}
+.aone {
+	width: 325px;
+	border-right:1.5px solid rgba(255,255,255,0.3);
+}
+ /* Responsive */  
+@media (max-width: 760px) {  
+    .hamburger { margin-left: 9.7cm; }  
+    .head-logo { margin-left: 8.5px; }  
+    .headname { margin-left: 0; }  
+    .hero{ height:260px;}
+    .aone {width: 136.5px;}
+}  
+</style>
+</head>
+
+<body>
+<div class="main-header">  
+<img onclick="openVideo('https://indian-super-league.github.io/Indian-Super-League/index.html')" class="head-logo" src="https://raw.githubusercontent.com/indian-super-league/Indian-Super-League/refs/heads/main/img/logo/Isl.png"/>
+  <h3 class="headname">Indian Super League</h3>  
+</div>  
+  
+<div class="hamburger" id="hamburger">  
+  <span></span>  
+  <span></span>  
+  <span></span>  
+</div>  
+  
+<div class="menu" id="menu">  
+  <a href="https://indian-super-league.github.io/Indian-Super-League/index.html">Home</a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/fixtures/fixtures.html">Fixtures</a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/highlights/highlights.html">Highlights</a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/table/table.html">Point Table</a>  
+  <a href="https://indian-super-league.github.io/Indian-Super-League/stats/player stats.html">Player Stats</a>  
+  <a href="https://indian-super-league.github.io/Indian-Super-League/stats/club stats.html">Club Stats</a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/clubs.html">Clubs</a>   
+  <a href="https://indian-super-league.github.io/Indian-Super-League/about/about.html">About</a></div>  
+	<div class="content-space"></div>
+<!-- HERO -->
+<div class="hero"></div>
+
+<!-- CARD -->
+<div class="card">
+
+  <!-- LOGO -->
+  <div class="logo-wrap">
+    <img src="https://raw.githubusercontent.com/RS-Creation/Indian-Super-League/refs/heads/main/img/club/logo/Chennaiyin.png" style="margin-top:0.2cm;">
+  </div>
+
+  <!-- NAME -->
+  <div class="club-name">Chennaiyin</div>
+
+  <!-- STADIUM -->
+  <div class="stadium">
+    <i class="fa-solid fa-building"></i>
+    JLN Stadium, Chennai
+  </div>
+
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/venue/Chennaiyin.html"><div class="aone">Venue</div></a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/matches/Chennaiyin.html"><div class="aone">Matches</div></a>
+  <a href="https://indian-super-league.github.io/Indian-Super-League/club/about/Chennaiyin.html"><div class="aone" style="background: white; color: black;">About</div></a> 
+</div>
+
+<div class="stadiums"><p>Chennaiyin Football Club is an Indian professional football club based in Chennai, Tamil Nadu. The club competes in the Indian Super League (ISL), the top flight of Indian football. The club was founded in August 2014 during the inaugural season of the ISL. It has won the ISL title on two occasions, in the 2015, 2017–18 seasons respectively.</p><br>
+<p>The club is owned by Vita Dani, Bollywood actor Abhishek Bachchan and Indian cricketer MS Dhoni. The team's name Chennaiyin FC means Chennai's football club in Tamil where the 'yin' suffix is similar to a possessive 's' in English. The club's primary colour is blue ever since its inception and its logo is the Dhrishti Bommai, a representation of chasing away negativity and preserving positivity in the Tamil culture.</p><br>
+<p>Chennaiyin has played three ISL Finals winning it two times. The first final they played was the 2015 final which they beat FC Goa by 3–2 in Goa. In their second final, they played against Bengaluru FC at Bengaluru and won their second title by winning 3–2. During 2019–20 season Chennaiyin played their third final against ATK, which they lost 3–1.</p>
+</div>
+<script>
+	const hamburger=document.getElementById("hamburger");  
+const menu=document.getElementById("menu");  
+hamburger.addEventListener("click",()=>{hamburger.classList.toggle("active"); menu.classList.toggle("active");});  
+menu.addEventListener("click",e=>{const link=e.target.closest("a"); if(!link) return; hamburger.classList.remove("active"); menu.classList.remove("active");});  
+</script>
+	<script>
+function openVideo(url){
+    if(url){
+        window.location.href = url;
+    }
+}
+	</script>
+</script>
+</body>
+  </html>
